@@ -49,11 +49,11 @@ echo $GREEN"  <--Checking iptables and set this rules--> "
 	sudo iptables -X
 	sudo iptables -L -n -v
 	sudo iptables -A INPUT  -p tcp -m multiport --dports 80,443 -j ACCEPT
-	sudo iptables -A INPUT  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050 -j DROP
+	sudo iptables -A INPUT  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22 -j DROP
 	sudo iptables -A FORWARD  -p tcp -m multiport --dports 80,443 -j ACCEPT
-	sudo iptables -A FORWARD  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050 -j DROP
+	sudo iptables -A FORWARD  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22 -j DROP
 	sudo iptables -A OUTPUT  -p tcp -m multiport --dports 80,443 -j ACCEPT
-	sudo iptables -A OUTPUT  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050 -j DROP
+	sudo iptables -A OUTPUT  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22 -j DROP
 	sudo -s iptables -L -n -v --line-numbers
 
 # Check history and remove it.
