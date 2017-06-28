@@ -193,5 +193,27 @@ whatis ufw
  service ufw stop
  service --status-all | grep "ufw"
  echo $BLUE
+
 echo "    #####    "
 echo "    # 9 #    "
+echo "    #####    " $RED
+whatis bluetooth
+ service bluetooth stop
+ service --status-all | grep "bluetooth"
+ echo $BLUE
+
+echo "    ######    "
+echo "    # 10 #    "
+echo "    ######    " $RED
+whatis ssh
+ service ssh stop
+ service --status-all | grep "ssh"
+ echo $BLUE
+
+echo "    ######    "
+echo "    # 11 #    "
+echo "    ######    " $RED
+whatis mysql
+ service mysql stop
+ service --status-all | grep "mysql"
+ echo $BLUE
