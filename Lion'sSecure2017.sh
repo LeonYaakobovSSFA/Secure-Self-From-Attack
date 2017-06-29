@@ -22,24 +22,26 @@ GREEN=$(tput setaf 2 && tput bold)
 STAND=$(tput sgr0)
 BLUE=$(tput setaf 6 && tput bold)
 HIS1=$(history)
-NIC=(here your name net)
-NICV=(here your name net)
+NIC=enp3s0f1
+NICV=virbr0
 
 echo $GREEN" <--------------------------✡-✡-✡-✡-✡------------------------->"
-echo $GREEN"<--✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡-->"
-echo $GREEN"<--[✡|---✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡---|✡]-->"
-echo $GREEN"<--[✡|---✡ ✡Security Script 2017✡     ✡I-S-R-A-E-L✡  ✡---|✡]-->"	
-echo $GREEN"<--[✡|---✡ ✡written by {Leon Yaakobov [SSFA]} in 2017 ✡---|✡]-->"
-echo $GREEN"<--[✡|---✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡---|✡]-->"
-echo $GREEN"<--✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡-->"
+echo $GREEN"<--✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡-->"
+echo $GREEN"<--[✡|---✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡---|✡]-->"
+echo $GREEN"<--[✡|---✡            ✡    I-S-R-A-E-L    ✡           ✡---|✡]-->"	
+echo $GREEN"<--[✡|---✡             Security Script 2017           ✡---|✡]-->"	
+echo $GREEN"<--[✡|---✡           written by  Leon Yaakobov        ✡---|✡]-->"
+echo $GREEN"<--[✡|---✡        SSFA = Secure Self From Attack      ✡---|✡]-->"
+echo $GREEN"<--[✡|---✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡---|✡]-->"
+echo $GREEN"<--✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡-->"
 echo $GREEN" <--------------------------✡-✡-✡-✡-✡------------------------->"
-echo $BLUE"		+✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡+"
-echo $BLUE"		+✡   Version 1.0                        ✡+"           
-echo $BLUE"		+✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡+"
-echo $BLUE"		+✡   L.Y SSFA Security Script           ✡+" 
-echo $BLUE"		+✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡+"
-echo $BLUE"		+✡   Visit my site: www.lyssfa.co.il    ✡+"
-echo $BLUE"		+✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡+"
+echo $BLUE"	✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡"
+echo $BLUE"	✡   Version 1.0                        ✡"           
+echo $BLUE"	✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡"
+echo $BLUE"	✡   L.Y SSFA Security Script           ✡" 
+echo $BLUE"	✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡"
+echo $BLUE"	✡   Visit my site: www.lyssfa.co.il    ✡"
+echo $BLUE"	✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡✡" 
 echo ""
 echo ""
 
@@ -49,37 +51,50 @@ echo $GREEN"  <--Checking iptables and set this rules--> "
 	sudo iptables -X
 	sudo iptables -L -n -v
 	sudo iptables -A INPUT  -p tcp -m multiport --dports 80,443 -j ACCEPT
-	sudo iptables -A INPUT  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22 -j DROP
+	sudo iptables -A INPUT  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22,49152,3689,49153 -j DROP
 	sudo iptables -A FORWARD  -p tcp -m multiport --dports 80,443 -j ACCEPT
-	sudo iptables -A FORWARD  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22 -j DROP
+	sudo iptables -A FORWARD  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22,49152,3689,49153 -j DROP
 	sudo iptables -A OUTPUT  -p tcp -m multiport --dports 80,443 -j ACCEPT
-	sudo iptables -A OUTPUT  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22 -j DROP
+	sudo iptables -A OUTPUT  -p tcp -m multiport --dports 161,1143,3389,162,23,631,10050,22,49152,3689,49153 -j DROP
 	sudo -s iptables -L -n -v --line-numbers
 
 # Check history and remove it.
 
-echo "          <-################->"
-echo "          <-# Last History #->"
-echo "          <-################->"
-	sudo -s cat //home/----/.bash_history
+echo $BLUE"          <-################->"
+echo $BLUE"          <-# Last History             #->"
+echo $BLUE"          <-################->"$RED
+	sudo  cat //home/leon/.bash_history
 
-
+echo $BLUE"          <-###################->"
+echo $BLUE"          <-# Remove Terminal History #->"
+echo $BLUE"          <-###################->"$RED
+	sudo  rm //home/leon/.bash_history
 
 #sudo etherape   
- echo -n " Finding your Network Interfaces for you... "$RED
+ echo -n $BLUE" Finding your Network Interfaces for you... "$RED
  echo ""
 	 ifconfig -a | cut -d " " -f12 | egrep -v 'lo|vm'
  echo ""
+
  #echo ""
+echo $BLUE"          <-################->"
+echo $BLUE"          <-# Route  Table           #->"
+echo $BLUE"          <-################->"$RED
+	sudo route
+
 echo $BLUE"	##########"
 echo $BLUE"	# 1 TYID #" #Taking Your Interface Down...
 echo $BLUE"	##########"$GREEN
+	
 	sudo -s route
+	
 	echo $RED
+	
 	 ifconfig 
 	 ifconfig $NIC down
 	 ifconfig $NICV down
 	 ifconfig 
+
 echo $BLUE"	##########"
 echo $BLUE"	# 2 CYMA #"  
 echo $BLUE"	##########" $GREEN
@@ -91,12 +106,13 @@ echo $BLUE"	##########" $GREEN
 echo $BLUE"	##########"
 echo $BLUE"	# 3 IU #" # Interface Up...
 echo $BLUE"	##########"$GREEN
-	  -s route  
+	  route  
+	
 		echo $RED
 	 ifconfig 
 	 ifconfig $NIC up
 	 ifconfig $NIC
-	 $BLUE | route 
+	echo $BLUE | route 
 
 echo $BLUE"	###############"
 echo $BLUE"	# YMINRTYFUMC #"
@@ -104,17 +120,17 @@ echo $BLUE"	###############"$RED
  echo ""
 	  route 
 echo $BLUE"	##################"
-echo $BLUE"	# 1 Network Stop #"
+echo $BLUE"	# 1 Network Status #"
 echo $BLUE"	##################"$RED
 	 sudo -s service network-manager status 
 	 service network-manager stop
 echo $BLUE"	###################"
-echo $BLUE"	# 2 Network Start #"
+echo $BLUE"	# 2 Network Stop #"
 echo $BLUE"	###################"$RED
 	 service network-manager status
 	 service network-manager start
 echo $BLUE"	####################"
-echo $BLUE"	# 3 Network Status #"
+echo $BLUE"	# 3 Network Start $ Status #"
 echo $BLUE"	####################"$RED
  service network-manager status
 
@@ -123,97 +139,103 @@ echo $BLUE"	####################"$RED
 echo $BLUE"####################"
 echo $BLUE"# Standart history #"
 echo $BLUE"####################"$RED
-	history
+	 history
 echo $BLUE"##################"
 echo $BLUE"# sudo history   #"
 echo $BLUE"##################"$RED
-	history -cr
-echo $BLUE"##################"
-echo $BLUE"# bash_history   #"
-echo $BLUE"##################"	$RED
-	#sudo rm //home/----/.bash_history
+	 history -cr
 
-echo "    #####    "
-echo "    # 1 #    "
-echo "    #####    "  
+
+
  
 echo "$(tput setaf 111) Cheking Services"
  
  service --status-all | grep "+"
+
+echo $BLUE
+echo "    #####    "
+echo "    # 1 #    "
+echo "    #####    "$GREEN
  whatis tor 
  service tor stop 
  service --status-all | grep "tor"
- echo $BLUE
+
+echo $BLUE
 echo "    #####    "
 echo "    # 2 #    "
-echo "    #####    " $RED
+echo "    #####    " $GREEN
  whatis postgresql
  service postgresql stop
  service --status-all | grep "postgresql"
- echo $BLUE
+
+echo $BLUE
 echo "    #####    "
 echo "    # 3 #    "
-echo "    #####    " $RED
+echo "    #####    " $GREEN
  whatis metasploit
  service metasploit stop
  service --status-all | grep "metasploit"
- echo $BLUE
+
+echo $BLUE
 echo "    #####    "
 echo "    # 4 #    "
-echo "    #####    " $RED
+echo "    #####    " $GREEN
  whatis cron
  service cron stop
  service --status-all | grep "cron"
- echo $BLUE
+
+echo $BLUE
 echo "    #####    "
 echo "    # 5 #    "
-echo "    #####    " $RED
+echo "    #####    " $GREEN
  whatis thin
  service thin stop
  service --status-all | grep "thin"
-  echo $BLUE
+
+echo $BLUE
 echo "    #####    "
 echo "    # 6 #    "
-echo "    #####    " $RED
+echo "    #####    " $GREEN
  whatis speech-dispatcher
  service speech-dispatcher stop
  service --status-all | grep "speech-dispatcher"
-  echo $BLUE
+
+echo $BLUE
 echo "    #####    "
 echo "    # 7 #    "
-echo "    #####    "$RED
+echo "    #####    "$GREEN
  whatis ondemand
  service ondemand stop
  service --status-all | grep "ondemand"
-  echo $BLUE
+
+echo $BLUE
 echo "    #####    "
 echo "    # 8 #    "
-echo "    #####    " $RED
-whatis ufw
+echo "    #####    " $GREEN
  service ufw stop
  service --status-all | grep "ufw"
- echo $BLUE
 
+echo $BLUE
 echo "    #####    "
 echo "    # 9 #    "
-echo "    #####    " $RED
+echo "    #####    " $GREEN
 whatis bluetooth
  service bluetooth stop
  service --status-all | grep "bluetooth"
- echo $BLUE
 
+echo $BLUE
 echo "    ######    "
 echo "    # 10 #    "
-echo "    ######    " $RED
+echo "    ######    " $GREEN
 whatis ssh
  service ssh stop
  service --status-all | grep "ssh"
- echo $BLUE
 
+echo $BLUE
 echo "    ######    "
 echo "    # 11 #    "
-echo "    ######    " $RED
+echo "    ######    " $GREEN
 whatis mysql
  service mysql stop
  service --status-all | grep "mysql"
- echo $BLUE
+ 
